@@ -274,6 +274,7 @@
 .content .content-dev .cdev-hp{
 	/*height: 475px;*/
 	max-width: 1345px;
+	width: 80%;
 	margin: 0 auto;
 }
 .content .content-dev li{
