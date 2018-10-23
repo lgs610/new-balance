@@ -1,0 +1,276 @@
+.mes{
+	height: 296px;
+	background-color:#232323;
+	border: 1px solid pink;
+	display: none;
+}
+.mes .wrap{
+	max-width: 720px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+.mes .wrap ol{
+	list-style-position: outside;
+	color: red;
+}
+.mes .wrap ol li{
+	border-left: 1px solid #999;
+	margin-bottom:15px;
+	padding-left: 15px;
+}
+.mes .wrap h1{
+	color: #eee;
+	margin-bottom: 5px;
+}
+.mes .wrap p{
+	color: #999;
+	font-size: 0.9em;
+}
+
+
+.header{
+	height: 35px;
+	background-color: #232323;
+	overflow: hidden;
+	}
+.header .left{
+	width: 90%;
+	text-align: center;
+	line-height: 35px;
+	float: left;
+}
+.header .right{
+	width: 10%px;
+	border-left :1px solid #ddd;
+	text-align: center;
+	line-height: 35px;
+	float: right;
+}
+.header .right img{
+	width: 25px;
+	float: right;
+	margin-top: 5px ;
+	margin-right: 10px;
+}
+
+.header::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.fix{
+	position: fixed;
+	top: 400px;
+	right: 0;
+}
+
+.nav{
+	height: 56px;
+	border: 1px solid #ccc;
+}
+.nav::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.nav div img ,.nav .nav-bar{
+	float: left;
+	line-height: 56px;
+}
+.nav .nav-bar>li{
+	display: inline-block;
+	font-weight: bold;
+	margin: 0 12px;
+	font-size: 0.95em;
+}
+.nav .nav-bar a:hover{
+	color: red;
+}
+.nav .search{
+	position: relative;
+	margin-right: 20px;
+	max-width:346px;
+}
+.nav div form i{
+	font-size: 30px;
+	position :absolute;
+	right:0px;
+}
+.nav div form input{
+	box-sizing: border-box;
+	width:50%px;
+	height:35px;
+	padding-left: 15px;
+	border: 1px solid #ccc;
+}
+.nav div.login a:hover,.nav div.cart a:hover{
+	color: red;
+}
+.nav div.cart {
+	margin-left: 10px;
+	font-size: 0.75em;
+	margin-right: 30px;
+}
+.nav div.lt{
+	float: left;
+	width: 50%;
+	line-height: 56px;
+}
+.nav .rt{
+	float: right;
+	width: 50%;
+	line-height: 56px;
+}
+.nav .login,.nav .cart,.nav .search{
+	float:right;
+}
+.nav ul > li:hover .sub-nav{
+	display: block;
+}
+.nav ul .sub-nav{
+	position: absolute;
+	width: 100%;
+	background-color: #fff;
+	left: 0;
+	display: none;
+}
+.nav .sub-nav .wrapper{
+	width: 1200px;
+	margin: 30px auto;
+	text-align: left;
+}
+.nav .sub-nav .wrapper::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.nav .sub-nav .wrapper div{
+	float: left;
+}
+.nav .sub-nav .sub-left{
+	padding-left: 15px;
+	width: 180px;
+	height: 210px;
+	border-right: 1px solid #ccc;
+	line-height: 20px;
+}
+
+.nav .sub-nav .sub-left li,.nav .sub-nav .sub-mid li{
+	font-weight:lighter;
+	font-size: 0.9em;
+}
+.nav .sub-nav li:nth-child(1){
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.nav .sub-nav li:last-child{
+	font-weight: bold;
+	margin-top: 5px;
+}
+.nav .sub-nav .girl li:last-child,.nav .sub-nav .boy li:last-child{
+	font-weight: normal;
+	margin-top: 0px;
+}
+.nav .sub-nav .sub-mid{
+	margin-left: 0px;
+	padding-left: 15px;
+	width: 180px;
+	height: 210px;
+	border-right: 1px solid #ccc;
+	line-height: 20px;
+}
+.nav .sub-nav .sub-right{
+	margin-left: 0px;
+	padding-left: 15px;
+	width: 180px;
+	height: 210px;
+	line-height: 20px;
+	font-size: 0.9em;
+
+}
+.nav .sub-nav .sub-img a{
+	margin-right: 10px;
+	font-weight: lighter;
+	text-align: center;
+	font-size: 0.8em;
+	float: left;
+}
+.nav .sub-nav .sub-img p{
+	position: relative;
+	top: -15px;
+}
+.nav .sub-nav .sub-img a:hover{
+	color: red;
+}
+.nav .sub-nav .subleft{
+	font-weight: bold;
+	line-height: 20px;
+	width: 160px;
+	height: 49px;
+	padding: 0 20px;
+	margin-left: 400px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	font-size: 0.9em;
+	opacity: 0.8;
+
+}
+.nav .sub-nav .subright{
+	font-weight: bold;
+	line-height: 20px;
+	border-left: 1px solid #ccc;
+	width: 160px;
+	height: 49px;
+	padding: 0 20px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	font-size: 0.9em;
+	opacity: 0.8;
+}
+.nav .sub-man a:hover,
+.nav .sub-woman a:hover{
+	color: red;
+}
+.nav .sub-man ,
+.nav .sub-woman{
+	width: 280px;
+	height: 220px;
+	margin-bottom: 80px;
+	padding:5px 15px;
+}
+.nav .sub-man li,
+.nav .sub-woman li{
+	float: left;
+	margin-right: 8px;
+	margin-bottom: 20px;
+}
+.nav .sub-man a,
+.nav .sub-woman a{
+	text-align: center;
+	font-weight: bold;
+}
+.nav .sub-man p,
+.nav .sub-woman p{
+	position: relative;
+	top: -15px;
+	width: 30px;
+	height: 18px;
+	margin: 0 auto;
+}
+.nav .sub-image p{
+	font-weight: normal;
+	position: relative;
+	top: -15px;
+	font-size: 0.8em;
+}
+.nav .sub-image a:hover{
+	color: red;
+}
+
+
+
+
+
+
+
+
